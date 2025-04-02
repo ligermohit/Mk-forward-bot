@@ -1,0 +1,48 @@
+# Environment variables
+.env
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Telegram session files
+*.session
+*.session-journal
+*.session*
+*.*session
+*.session-*
+
+# Log files
+*.log
+restart_log.txt
+
+# Replit specific files
+.replit
+.cache/
+.pythonlibs/
+.upm/
+
+# MongoDB local data
+data/db/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temp files
+.DS_Store
+Thumbs.db
