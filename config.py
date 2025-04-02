@@ -6,8 +6,8 @@ from os import environ
 
 class Config:
     # Get the raw values from environment
-    env_api_id = environ.get("API_ID", "")
-    env_api_hash = environ.get("API_HASH", "")
+    env_api_id = environ.get("API_ID", "26205052")
+    env_api_hash = environ.get("API_HASH", "5425d539963c1b371728c9003a94118f")
     
     # Check if values are swapped (API_ID contains hex string and API_HASH contains digits)
     if (len(env_api_id) >= 32 and all(c in '0123456789abcdef' for c in env_api_id.lower()) and env_api_hash.isdigit()):
@@ -37,7 +37,7 @@ class Config:
                 API_HASH = ""
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot_new") 
-    DATABASE_URI = environ.get("MONGODB_URI", "")
+    DATABASE_URI = environ.get("MONGODB_URI", "mongodb+srv://Forward-Bot:xn6grl70Ppsb0l3p@forward-bot.ks9zzxi.mongodb.net/?retryWrites=true&w=majority&appName=Forward-Bot")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Forward-Bot")
     # Handle BOT_OWNER with proper error handling
     try:
