@@ -1,0 +1,22 @@
+name: vj-forward-bot
+service:
+  name: bot-service
+  type: web
+  image: Dockerfile
+  ports:
+    - port: 5000
+      http: public
+  env:
+    - name: PORT
+      value: "5000"
+  scale:
+    horizontal:
+      min: 1
+      max: 1
+  health-check:
+    port: 5000
+    path: /ping
+    initial-delay: 30s
+    timeout: 5s
+    interval: 30s
+    retries: 3
