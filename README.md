@@ -1,8 +1,8 @@
-# VJ Forward Bot
+# Thanos Forward Bot
 
 <b>Auto Restart All User Forwarding After Bot Restarted.</b>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ+Forward+Bot+!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Thanos+Forward+Bot+!)
 
 ## Deployment Options
 
