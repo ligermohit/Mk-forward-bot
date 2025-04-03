@@ -864,7 +864,7 @@ async def speed_reset_callback(bot, query):
     
     # Reset to default values (2.0 seconds = ~30 msgs/min)
     temp.BOT_FORWARD_SPEED = 2.0
-    temp.USERBOT_FORWARD_SPEED = 2.0
+    temp.USERBOT_FORWARD_SPEED = 1.2
     
     # Calculate messages per minute
     bot_speed_msgs = delay_to_msgs_per_min(temp.BOT_FORWARD_SPEED)
