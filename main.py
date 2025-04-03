@@ -37,7 +37,7 @@ if __name__ == "__main__":
         bot_token=Config.BOT_TOKEN,
         api_id=Config.API_ID,
         api_hash=Config.API_HASH,
-        sleep_threshold=10,  # Increased from 5 to 10 to avoid FloodWait
+        sleep_threshold=5,  # Increased from 5 to 10 to avoid FloodWait
         plugins=dict(root="plugins"),
         workers=5,  # Reduced worker threads from 20 to 5 to avoid FloodWait
         in_memory=True  # Use in-memory session for faster access
