@@ -80,7 +80,7 @@ class temp(object):
     # 3.0 seconds = ~20 messages per minute
     # 1.2 seconds = ~50 messages per minute
     BOT_FORWARD_SPEED = float(environ.get("BOT_FORWARD_SPEED", "2.0"))    # Default bot forward speed (~30 messages per minute)
-    USERBOT_FORWARD_SPEED = float(environ.get("USERBOT_FORWARD_SPEED", "2.0"))  # Default userbot forward speed (~30 messages per minute)
+    USERBOT_FORWARD_SPEED = float(environ.get("USERBOT_FORWARD_SPEED", "1.2"))  # Default userbot forward speed (~30 messages per minute)
     
     # Speed limits (messages per minute)
     MIN_FORWARD_SPEED = 20  # Minimum 20 messages per minute (3.0 seconds delay)
